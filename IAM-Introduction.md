@@ -51,7 +51,7 @@ OCI IAM enforces fine-grained and role-based access control, ensuring that only 
 ## 🆔 Oracle Cloud Identifier (OCID)
 Every OCI resource is automatically assigned a globally unique identifier called an **OCID**.
 
-### OCID Format: ocid1.<resource-type>.<realm>.<region>.<unique-id>
+### OCID Format: `ocid1.<resource-type>.<realm>.<region>.<unique-id>`
 
 
 ### 🔎 OCID Components:
@@ -86,6 +86,3 @@ Every OCI resource is automatically assigned a globally unique identifier called
 ---
 
 OCI IAM provides the foundational security layer for managing access to all cloud resources. By understanding and properly configuring authentication, authorization, and identity domains, you can design a **secure and well-governed cloud environment**.
-
-*Thanks for reading! More IAM topics like policies, dynamic groups, and compartments will be explored in future lessons.*
-
