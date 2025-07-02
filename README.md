@@ -64,10 +64,8 @@ This repository serves as a personal knowledge base and a portfolio to showcase 
 ---
 
 ## 📂 Repository Contents
-/labs/ # Hands-on lab walkthroughs and scripts
-/notes/ # Study notes and cheat sheets
-/resources/ # Helpful links and official documentation
-README.md # Course summary and learning goals
+
+1. [**OCI Introduction**](*)
 
 
 ---
