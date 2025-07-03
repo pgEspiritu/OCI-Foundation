@@ -42,7 +42,7 @@ Authorization determines **what actions a principal can perform**. In OCI, it's 
 Policies are **human-readable** statements that define access permissions.
 
 ### 🔤 Syntax:
-Allow group <group_name> to <verb> <resource-type> in <location>
+Allow group `<group_name>` to `<verb>` `<resource-type>` in `<location>`
 
 
 - **group**: Target group (policies can’t be written for individual users)
