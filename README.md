@@ -65,7 +65,16 @@ This repository serves as a personal knowledge base and a portfolio to showcase 
 
 ## 📂 Repository Contents
 
-1. [**OCI Introduction**](*)
+### OCI Introduction
+1. [**OCI Architecture**](OCI-Architecture.md)
+
+### Identity and Access Management (IAM)
+1. [**IAM Introduction**](IAM-Introduction.md)
+2. [**Compartments**](Compartments.md)
+3. [**Demo: Compartments and Identity Domains**](Demo-Compartments-and-Identity-Domain.md)
+4. [**AuthN and AuthZ**](AuthN-8&-AuthZ.md)
+5. [**Demo: AuthN and AuthZ**](Demo-AuthN-&-AuthZ.md)
+6. [**Tenancy Setup**](Tenancy-Setup.md)
 
 
 ---
