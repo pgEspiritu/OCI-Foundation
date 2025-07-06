@@ -77,6 +77,14 @@ This repository serves as a personal knowledge base and a portfolio to showcase 
 6. [**Tenancy Setup**](Tenancy-Setup.md)
 
 
+### Networking
+1. [**VCN Introduction**](VCN-Introduction.md)
+2. [**Demo: VCN Creating Using Wizard**](Demo-VCN-Creation-Using-Wizard.md)
+3. [**VCN Routing**](VCN-Routing.md)
+4. [**VCN Security**](VCN-Security.md)
+5. [**Load Balancer**](Load-Balancer.md)
+6. [**Demo: Load Balancing**](Demo-Load-Balancing.md)
+
 ---
 
 ## 🙌 Acknowledgments
