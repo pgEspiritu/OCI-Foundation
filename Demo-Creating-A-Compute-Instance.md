@@ -110,7 +110,7 @@ http://<public-ip>
 
 ---
 
-##🧠 Recap
+## 🧠 Recap
 - Built network infrastructure manually
 - Configured routing and security
 - Launched a compute instance
