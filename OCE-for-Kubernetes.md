@@ -133,7 +133,3 @@ Also called a **worker node**.
 ---
 
 > **OKE** is ideal for running **cloud-native** and **containerized apps** in a fully managed Kubernetes environment.
-
-📚 For advanced DevOps and Kubernetes lessons, check out our dedicated training tracks.
-
-👋 **Thanks for your time!**
