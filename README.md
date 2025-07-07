@@ -85,7 +85,19 @@ This repository serves as a personal knowledge base and a portfolio to showcase 
 5. [**Load Balancer**](Load-Balancer.md)
 6. [**Demo: Load Balancing**](Demo-Load-Balancing.md)
 
+
+### Compute
+1. [**Compute Introduction**](Compute-Introduction.md)
+2. [**Instance Basics**](Instance-Basics.md)
+3. [**Demo: Getting Started with Cloud Shell**](Demo-Getting-Started-With-Cloud-Shell.md)
+4. [**Demo: Creating a Compute Instance**](Demo-Creating-A-Compute-Instance.md)
+5. [**Scaling**](Scaling.md)
+6. [**Oracle Container Enginer for Kubernetes (OKE)**](OCE-for-Kubernetes.md)
+7. [**Container Workloads in OCI**](Container-Workloads-in-OCI.md)
+8. [**Serverless with Oracle Functions**](Serverless-with-Oracle-Functions.md)
+
 ---
+
 
 ## 🙌 Acknowledgments
 
