@@ -1,0 +1,37 @@
+# ☁️ OCI Object Storage
+
+OCI Object Storage is an **internet-scale**, **high-performance**, and **fully managed** object-based storage platform ideal for storing **unstructured data**.
+
+---
+
+## 🔍 Key Characteristics
+
+- Stores data as **objects** (key-value pairs)
+- Ideal for: 📷 Images, 🎥 Videos, 📄 Logs, 📁 Backups
+- Accessed via public API (HTTP/HTTPS)
+- **Regional** and **highly durable**
+- Offers **private access** from OCI resources like compute instances
+- Feature-rich (lifecycle, versioning, auto-tiering, encryption)
+
+---
+
+## 📦 Object Storage Core Components
+
+| Component     | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| **Object**     | The actual data, stored with metadata                                       |
+| **Bucket**     | Logical container for grouping objects (unique within a tenancy)           |
+| **Namespace**  | Top-level logical grouping for all buckets and objects (globally unique)   |
+| **Flat Hierarchy** | No actual folders — structure simulated using **prefixes**             |
+
+---
+
+## 🌐 Example API Path Structure
+
+`https://objectstorage.<region>.oraclecloud.com/n/<namespace>/b/<bucket-name>/o/<object-name>`
+
+```makefile
+**Example:**
+```
+
+`https://objectstorage.us-sanjose-1.oraclecloud.com/n/myacct/b/development/o/log.zip`
