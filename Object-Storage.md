@@ -36,9 +36,6 @@ Example: https://objectstorage.us-sanjose-1.oraclecloud.com/n/myacct/b/developme
 
 ---
 
-
----
-
 ## 🗃️ Storage Tiers
 
 | Tier                     | Description                                | Min Retention | Access Speed                        | Cost           |
