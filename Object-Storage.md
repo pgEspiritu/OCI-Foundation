@@ -31,6 +31,5 @@ OCI Object Storage is an **internet-scale**, **high-performance**, and **fully m
 `https://objectstorage.<region>.oraclecloud.com/n/<namespace>/b/<bucket-name>/o/<object-name>`
 
 ```makefile
-**Example:**
-`https://objectstorage.us-sanjose-1.oraclecloud.com/n/myacct/b/development/o/log.zip`
+Example: https://objectstorage.us-sanjose-1.oraclecloud.com/n/myacct/b/development/o/log.zip
 ```
