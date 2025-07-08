@@ -71,3 +71,62 @@ Example: https://objectstorage.us-sanjose-1.oraclecloud.com/n/myacct/b/developme
 
 ---
 
+## 🧬 Versioning
+
+- Enable versioning at the **bucket level**.
+- Automatically maintains **history of changes** to stored objects.
+
+---
+
+## 🔐 Data Encryption
+
+| Option              | Description                                 |
+|---------------------|---------------------------------------------|
+| **Default Encryption** | Always enabled (no configuration needed) |
+| **BYOK**               | Bring Your Own Key for enhanced security |
+
+---
+
+## 🛠️ Access Methods
+
+Access Object Storage using:
+
+- **REST API** with familiar HTTP verbs:
+  - `PUT` – Upload
+  - `GET` – Download
+  - `DELETE` – Remove
+- **OCI Console**
+- **OCI CLI**
+- **OCI SDKs**
+- **Pre-Authenticated Requests**
+- **IAM Policies**
+- **OCI Vault**
+
+---
+
+## 🎯 Use Cases
+
+✅ Media backup and streaming  
+✅ Logs and telemetry storage  
+✅ Big Data lakes  
+✅ Static website hosting  
+✅ Disaster recovery and archival  
+
+---
+
+## 🧠 Summary
+
+| Feature                | Supported                                 |
+|------------------------|--------------------------------------------|
+| **Public access**      | ✅ Yes (via URL or API)                     |
+| **Private compute access** | ✅ Yes (via VCN or IAM policies)       |
+| **Lifecycle policies** | ✅ Yes                                      |
+| **Versioning**         | ✅ Yes                                      |
+| **Auto-tiering**       | ✅ Yes                                      |
+| **Encryption**         | ✅ Always enabled                          |
+| **Restore from archive** | ⏱️ ~1 hour (plus download window)      |
+
+---
+
+📸 **Next time you upload a photo or stream a video, it may be stored in OCI Object Storage!**
+
