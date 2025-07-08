@@ -33,3 +33,44 @@ OCI Object Storage is an **internet-scale**, **high-performance**, and **fully m
 ```makefile
 Example: https://objectstorage.us-sanjose-1.oraclecloud.com/n/myacct/b/development/o/log.zip
 ```
+
+---
+
+
+---
+
+## 🗃️ Storage Tiers
+
+| Tier                     | Description                                | Min Retention | Access Speed                        | Cost           |
+|--------------------------|--------------------------------------------|----------------|-------------------------------------|----------------|
+| **Standard (Hot)**       | Frequently accessed critical data          | None           | ⚡ Instant                          | 💰 Highest     |
+| **Infrequent Access (IA)** | Long-term storage (e.g., backups)       | 31 days        | ⚡ Instant                          | 💸 60% cheaper |
+| **Archive**              | Rarely accessed data (like tape backups)   | 90 days        | 🕐 ≥ 1 hour (restore + download)    | 💸 Cheapest    |
+
+---
+
+## ⚙️ 🔁 Auto-Tiering
+
+- Automatically shifts objects between **Standard** and **Infrequent Access** tiers.
+- Based on access patterns.
+- ⚠️ No retrieval fees or pro-rated storage penalties.
+- ✅ Ideal for unknown or dynamic access behavior.
+
+---
+
+## 🔄 Lifecycle Management
+
+- Automates object transition and deletion using **rules**.
+- Example policy:
+  - Move to **Archive** after 30 days.
+  - **Delete** after 180 days.
+
+```json
+{
+  "action": "Archive",
+  "daysSinceLastModification": 30
+}
+```
+
+---
+
