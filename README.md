@@ -108,6 +108,16 @@ This repository serves as a personal knowledge base and a portfolio to showcase 
 
 ---
 
+### Security
+1. [**Security Introduction**](Security-Introduction.md)
+2. [**Cloud Guard**](Cloud-Guard.md)
+3. [**Security Zones and Security Advisor**](Security-Zones-&-Security-Advisor.md)
+4. [**Demo: Security Zone and Security Advisor**](Demo-Security-Zones.md)
+5. [**Encryption Basics**](Encryption-Basics.md)
+6. [**Demo: Vault**](Demo-Vault.md)
+
+---
+
 ## 🙌 Acknowledgments
 
 Special thanks to Oracle for providing this free course and certification path, and to the learning community for supporting each other on this journey!
