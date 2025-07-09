@@ -96,7 +96,6 @@ This repository serves as a personal knowledge base and a portfolio to showcase 
 7. [**Container Workloads in OCI**](Container-Workloads-in-OCI.md)
 8. [**Serverless with Oracle Functions**](Serverless-with-Oracle-Functions.md)
 
----
 
 ### Storage
 1. [**Storage Introduction**](Storage-Introduction.md)
@@ -106,7 +105,6 @@ This repository serves as a personal knowledge base and a portfolio to showcase 
 5. [**Demo: Block Volume**](Demo-Block-Volume.md)
 6. [**File Storage**](File-Storage.md)
 
----
 
 ### Security
 1. [**Security Introduction**](Security-Introduction.md)
