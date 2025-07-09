@@ -1,81 +1,83 @@
-# 🧾 OCI Governance and Administration: Pricing Overview
+# 💰 OCI Pricing Overview
 
-Welcome to this module on **Governance and Administration**. In this lesson, we'll explore **Oracle Cloud Infrastructure (OCI) pricing**.
-
-## ✅ OCI Pricing Models
-
-### 1. **Pay As You Go (PAYG)**
-- Usage-based billing.
-- No upfront commitment or minimum service period.
-- Metered billing for most resources.
-
-**🟰 Equivalent Services:**
-- **AWS:** On-Demand Pricing  
-- **GCP:** Pay-as-you-go Billing
+Welcome to this module on **Governance and Administration**. In this lesson, we explore **OCI Pricing**.
 
 ---
 
-### 2. **Consumption-Based Pricing**
-- Applies to services like **OCI Functions**.
-- You are charged only when the function runs.
-- Ideal for serverless workloads with intermittent activity.
+## 🔹 OCI's Pricing Philosophy
 
-**🟰 Equivalent Services:**
-- **AWS:** AWS Lambda  
-- **GCP:** Cloud Functions
+- ✅ **Simple**
+- ✅ **Transparent**
+- ✅ **Lower** than competitors
 
 ---
 
-### 3. **Annual Universal Credits**
-- Prepaid annual commitment.
-- Offers significant discounts based on deal size and term.
-- Additional usage is charged at PAYG rates.
+## 💼 Pricing Models
 
-**🟰 Equivalent Services:**
-- **AWS:** Enterprise Discount Program (EDP)  
-- **GCP:** Committed Use Contracts
+1. **Pay-As-You-Go (PAYG)**
+   - Charged only for the **resources consumed**
+   - ✅ No upfront commitment
+   - ✅ No minimum service period
+   - ✅ Usage is **metered**
 
----
+2. **Consumption-Based Pricing**
+   - Example: **Oracle Functions (serverless)**
+   - Charged **only when the resource is executed**
+   - More granular than PAYG (ideal for event-driven/serverless)
 
-### 4. **Bring Your Own License (BYOL)**
-- Use your existing on-prem Oracle licenses in the cloud.
-- Reduces overall software costs.
+3. **Annual Universal Credits (AUC)**
+   - Commit to an **annual pool of credits**
+   - 🎯 Offers **significant savings**
+   - Credits expire after 12 months
+   - Overage charged at PAYG rate
+   - 💡 Discounts vary by **deal size and term**
 
-**🟰 Equivalent Services:**
-- **AWS:** License Mobility (for Windows/SQL Server)  
-- **GCP:** Sole-tenant nodes or BYOL options
-
----
-
-## 💡 Key Pricing Factors
-
-### 🔹 Size of Resource
-- Larger compute/storage resources = higher cost.
-
-### 🔹 Resource Type
-- VM vs Bare Metal vs Serverless = different pricing tiers.
-
-### 🔹 Data Transfer
-- **Inbound data:** Free (Industry standard)
-- **Outbound data:** Up to **10× cheaper** than other providers
-- **Intra-AD traffic:** Free on OCI  
-  > *Other clouds often charge for inter-AZ/AD data transfers.*
+4. **Bring Your Own License (BYOL)**
+   - Reuse existing **on-premises licenses**
+   - Reduces overall cloud cost
 
 ---
 
-## 🌍 Global Uniform Pricing
+## 🔍 Key Pricing Factors
 
-- OCI has **consistent pricing globally** across all regions.
-- No regional price variation, unlike AWS and GCP.
+- 📏 **Resource Size**  
+  Larger instances cost more (based on consumption)
+
+- 🔁 **Data Transfer**  
+  A significant part of your bill — up to **25% or more**
+
+- 💻 **Resource Type**  
+  VM vs Bare Metal vs Serverless pricing varies
+
+- 🔐 **License Model**  
+  BYOL pricing differs from fully managed
 
 ---
 
-## 🧠 Summary
+## 🌍 Global Pricing Consistency
+
+- 💡 **Same pricing across all OCI regions**
+- No regional pricing variability (unlike many cloud providers)
+
+---
+
+## 📡 Data Transfer Costs
+
+- **Intra-region AD-to-AD transfer** = ✅ **Free**
+- **Inbound data (to OCI)** = ✅ **Free**
+- **Outbound data** = 💰 **~10x lower** than other providers
+
+> ⚠️ Other clouds may charge for data across availability domains, penalizing high availability.
+
+---
+
+## ✅ Summary
 
 - OCI supports:
-  - **Pay As You Go**
-  - **Consumption-Based**
+  - **Pay-as-you-go**
+  - **Consumption-based**
   - **Annual Universal Credits**
-  - **Bring Your Own License (BYOL)**
-- **Transparent**, **simple**, and **globally consistent** pricing.
-- OCI data transfer rates are significantly lower than AWS and GCP.
+  - **Bring Your Own License**
+- Transparent and **globally consistent pricing**
+- Outbound **data transfer cost is 10x lower**
+- OCI makes **high availability** affordable
