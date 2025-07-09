@@ -98,6 +98,15 @@ This repository serves as a personal knowledge base and a portfolio to showcase 
 
 ---
 
+### Storage
+1. [**Storage Introduction**](Storage-Introduction.md)
+2. [**Object Storage**](Object-Storage.md)
+3. [**Demo: Object Storage**](Demo-Object-Storage.md)
+4. [**Block Volume**](Block-Volume.md)
+5. [**Demo: Block Volume**](Demo-Block-Volume.md)
+6. [**File Storage**](File-Storage.md)
+
+---
 
 ## 🙌 Acknowledgments
 
