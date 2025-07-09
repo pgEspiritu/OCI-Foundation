@@ -21,12 +21,19 @@ The **OCI Block Volume** service provides **persistent** and **durable** storage
 
 ## 📊 Block Volume Performance Tiers
 
-| Tier                   | Use Case                                 | IOPS/GiB     |
-|------------------------|------------------------------------------|--------------|
-| **Lower Cost**         | Large sequential I/O (e.g., streaming)   | ~2 IOPS/GiB  |
-| **Balanced**           | Boot disks, general-purpose workloads    | Moderate     |
-| **Higher Performance** | I/O-intensive applications               | High         |
-| **Ultra High Perf.**   | Databases, highest I/O demand            | Up to 225    |
+| **Performance Tier**             | **Max IOPS per GB** | **Max Throughput (MB/s per GB)** | **Use Case**                                              | **Provisioned IOPS Support** |
+|----------------------------------|----------------------|-----------------------------------|------------------------------------------------------------|-------------------------------|
+| **Lower Cost**                   | 2 IOPS/GB            | 0.5 MB/s/GB                        | Backup, archival, infrequent access                        | ❌ No                         |
+| **Balanced**                     | 60 IOPS/GB           | 0.48 MB/s/GB                       | General-purpose workloads, boot volumes                    | ❌ No                         |
+| **Higher Performance**           | 75 IOPS/GB           | 0.56 MB/s/GB                       | High-performance databases, latency-sensitive apps         | ❌ No                         |
+| **Ultra High Performance (Custom)** | Up to 300 IOPS/GB | Up to 1 MB/s/GB                   | Mission-critical apps, large-scale databases               | ✅ Yes                        |
+
+---
+
+### 🔎 Notes:
+- **Ultra High Performance** allows **custom IOPS and throughput provisioning**.
+- Performance scales with **volume size**, subject to OCI service limits.
+- All volumes are **encrypted at rest** and support **automated backups**.
 
 ---
 
